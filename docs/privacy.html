@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Privacy Policy — GitHub–Google Drive Bridge</title>
+  <style>
+    body { font: 18px/1.6 system-ui, sans-serif; color: #162b28; background: #f7f9f7; max-width: 760px; margin: 3rem auto; padding: 0 1.25rem; }
+    h1, h2 { line-height: 1.2; }
+    a { color: #126c57; }
+    footer { border-top: 1px solid #ccd8d2; margin-top: 3rem; padding-top: 1rem; font-size: .9rem; }
+  </style>
+</head>
+<body>
+  <main>
+    <h1>Privacy Policy</h1>
+    <p>Effective 18 November 2026. This policy applies to the private GitHub–Google Drive Bridge operated by Dominic.</p>
+    <h2>Data accessed and purpose</h2>
+    <p>The integration requests Google Drive read and write access for the authorized working account. It uses that access only to let authorized, manually triggered GitHub Actions read, download, create, and update files in the designated working folder. Google grants the OAuth scope across the account's Drive; rclone's root folder setting directs routine operations to the working folder.</p>
+    <h2>Storage and sharing</h2>
+    <p>OAuth credentials and tokens are stored as encrypted GitHub Actions repository secrets. A workflow uses them in a temporary runner configuration and removes that configuration at the end of the run. Selected files pass between Google Drive and GitHub Actions. Requested downloads may be retained as private GitHub Actions artifacts for one day. No Google Drive file content is placed on this public website, sold, or used for advertising.</p>
+    <h2>Retention and control</h2>
+    <p>Files created or updated in Drive remain under the working account's normal Drive controls. The integration does not automatically delete or synchronize files. The operator can revoke access in the Google account's connected-app settings and can remove GitHub Actions secrets. GitHub and Google process data according to their applicable service terms and privacy policies.</p>
+    <h2>Contact</h2>
+    <p>Questions about this integration or its data handling: <a href="mailto:dominicchatgpt21@gmail.com">dominicchatgpt21@gmail.com</a>.</p>
+    <p><a href="index.html">Return to the app homepage</a>.</p>
+  </main>
+  <footer>GitHub–Google Drive Bridge</footer>
+</body>
+</html>
