@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>GitHub–Google Drive Bridge</title>
+  <style>
+    body { font: 18px/1.6 system-ui, sans-serif; color: #162b28; background: #f7f9f7; max-width: 760px; margin: 3rem auto; padding: 0 1.25rem; }
+    h1, h2 { line-height: 1.2; }
+    a { color: #126c57; }
+    footer { border-top: 1px solid #ccd8d2; margin-top: 3rem; padding-top: 1rem; font-size: .9rem; }
+  </style>
+</head>
+<body>
+  <main>
+    <h1>GitHub–Google Drive Bridge</h1>
+    <p>This is a private, single-user integration operated by Dominic. It lets manually triggered GitHub Actions use rclone and the Google Drive API to transfer files to and from an authorized Google Drive working folder.</p>
+    <h2>How it works</h2>
+    <p>The authorized Google account grants OAuth access to Google Drive. The workflow configures rclone to start in the designated working folder. The OAuth permission itself applies to the account's Drive, so the folder setting is an operational safeguard, not a restriction imposed by Google.</p>
+    <p>Workflows can create, read, download, and update files when manually started by an authorized repository user. There is no scheduled synchronization or automatic deletion. Files are not published by this website.</p>
+    <p>Read the <a href="privacy.html">Privacy Policy</a> for details about data access, storage, and retention.</p>
+  </main>
+  <footer>Support: <a href="mailto:dominicchatgpt21@gmail.com">dominicchatgpt21@gmail.com</a></footer>
+</body>
+</html>
